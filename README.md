@@ -74,9 +74,10 @@ Para os desafios de frontend ou backend [listados acima](#desafios):
 2. Leia os requisitos do desafio e desenvolva com a tecnologia de sua preferência
 3. Tente realizar os requisitos bônus para praticar ainda mais suas habilidades
 4. Envie cada resolução de desafio como uma pull request neste repositório.
+5. Para evitarmos que esse repositório fique muito pesado , recomendamos criar a resolução/ criação da solução do desafio num propio repositório seu, e depois colocar no readme criado internamente o link que aponte para seu repositório ( Isso vale para apps desenvolvidos)
 <br>Ps: você deverá enviar a sua solução dentro da pasta [resolucoes](./resolucoes). Lembre-se de colocá-la em uma pasta com o título ``[tecnologia utilizada]-[seu user]``. 
 Ex: <b>javascript-lorenalgm</b>
-5. Aguarde a revisão e aprovação da sua PR.
+6. Aguarde a revisão e aprovação da sua PR.
 
 ## Para projetos abertos
 
