@@ -11,8 +11,19 @@
 - [Sobre](#sobre)
 - [Como participar](#como-participar)
 - [Desafios](#desafios)
+    - [Desafio 1](#desafio-1)
+    - [Desafio 2](#desafio-2)
+    - [Desafio 3](#desafio-3)
+    - [Desafio 4](#desafio-4)
 - [Projetos abertos](#projetos-abertos)
+  - [DevChallenge:](#devchallenge)
+  - [Documentação:](#documentação)
 - [Como contribuir](#como-contribuir)
+  - [Para desafios](#para-desafios)
+  - [Para projetos abertos](#para-projetos-abertos)
+  - [Contribuições Non-code ou Low-code](#contribuições-non-code-ou-low-code)
+  - [Entregáveis Non code e Low code](#entregáveis-non-code-e-low-code)
+    - [Como entregar](#como-entregar)
 - [Comunidade](#comunidade)
 
 # Sobre
@@ -25,12 +36,11 @@ O evento acontecerá durante todo o mês de outubro de 2022. Para participar, si
 
 1. Inscreva-se em: https://hacktoberfest.com/
 2. Entre na comunidade do Discord do DevChallenge: https://discord.gg/a8gtgBf3
-3. Participe dos desafios abaixo ou projetos abertos do DevChallenge, contribuindo com 4 pull requests até o fim do mês de outubro.
+3. Participe dos 4 desafios abaixo, ou com contribuições low code e non code, e até projetos abertos do DevChallenge, contribuindo com 4 pull requests até o fim do mês de outubro.
 4. Se a suas contribuições forem aprovadas com sucesso por nossa equipe de moderação, 
 você poderá escolher seu prêmio no site do Hacktoberfest, podendo ser uma camisa ou plantar uma árvore :)
 
 # Desafios
-[loading...]
 
 ### Desafio 1
 
@@ -56,18 +66,48 @@ você poderá escolher seu prêmio no site do Hacktoberfest, podendo ser uma cam
 
 # Como contribuir
 
-## Para desafios:
+## Para desafios
+
 Para os desafios de frontend ou backend [listados acima](#desafios):
-1. Faça o fork deste repositório <b>hacktoberfest-2021</b>
+
+1. Faça o fork deste repositório **hacktoberfest2022**
 2. Leia os requisitos do desafio e desenvolva com a tecnologia de sua preferência
 3. Tente realizar os requisitos bônus para praticar ainda mais suas habilidades
 4. Envie cada resolução de desafio como uma pull request neste repositório.
-<br>Ps: você deverá enviar a sua solução dentro da pasta [resolucoes](./resolucoes). Lembre-se de colocá-la em uma pasta com o título ``[tecnologia utilizada]-[seu user]``. Ex: <b>javascript-lorenalgm</b>
+<br>Ps: você deverá enviar a sua solução dentro da pasta [resolucoes](./resolucoes). Lembre-se de colocá-la em uma pasta com o título ``[tecnologia utilizada]-[seu user]``. 
+Ex: <b>javascript-lorenalgm</b>
 5. Aguarde a revisão e aprovação da sua PR.
 
 ## Para projetos abertos
 
 Para os projetos abertos de documentação ou do próprio DevChallenge, sua contribuição deverá ser feita nos repositórios dos mesmos. Seguindo a mesma regra de revisão e aprovação feita pela equipe do DevChallenge.
+
+## Contribuições Non-code ou Low-code
+
+"Contribuir para o código aberto não é apenas para pessoas técnicas que querem escrever código. há muitas oportunidades para usar suas habilidades profissionais em apoio a projetos de código aberto. No Hacktoberfest deste ano, fazemos questão de incentivar contribuições que exigem alguma experiência técnica ou nenhuma. não importa sua experiência, você pode participar do hacktoberfest!
+
+**Low code:** Documentação Técnica, Testes, Casos de Estudos, Posts Técnicos
+
+**Non Code:** Traduções de documentações de outros idiomas, UI's, como um layout de Figma de páginas
+
+## Entregáveis Non code e Low code
+
+- Implementar um pricipio S.O.L.I.D, e detalhar numa explicação breve, o trecho de código que o mesmo é aplicado.
+
+- Documentar um dos 22 design patterns existentes, e mostrar um exemplo de código do problema que o mesmo resolve na sua linguagem/framework de programação de sua preferência.
+
+- Mostrar dois dos Code smell existentes, e aplicar em um exemplo de código, como o mesmo pode ser resolvido de forma prática.
+  
+- Criar layouts de páginas de produtos, de pots de blog, formulários, login, minicart etc, solicitamos que caso opte seguir com um entregavel de UI de layout, elaborar um styleguide simples do mesmo.
+
+Para os casos mencionados acima, não precisa ser necessáriamente uma aplicação funcional, e sim o conceito que é aplicado, caso queira pode fazer comentários nas linhas do trecho de código.
+
+**Importante**: Tendo como regra o entregavel somente um de cada tópico por contribuidor, ou seja, não pode fazer mais de uma vez um mesmo tópico
+
+### Como entregar
+
+- Ps: você deverá enviar a sua solução dentro da pasta [low-code](./low-code) ou [non-code](./non-code/). Lembre-se de colocá-la em uma pasta com o título ``[topico do assunto]-[seu user]``. 
+Ex: <b>code-smell-Lucas0019</b> 
 
 # Comunidade
 Nosso objetivo é ajudar cada vez mais na evolução de desenvolvedores! Por isso, temos uma comunidade exclusiva do DevChallenge no Discord. Caso tenha alguma dúvida sobre os desafios, fique à vontade para pedir ajuda na comunidade! <br> 
