@@ -47,7 +47,7 @@ Você deverá irá criar uma aplicação jamstack, em que a mesma deverá seguir
 ### Dicas
 
 - Nesse desafio você poderá criar o design da forma que preferir, então pode deixar a criatividade agir o/
-- Recomendamos usar os seguintes CMS: [hypgraph](https://hygraph.com/) ou [prismic](https://prismic.io/), porém existe outros no site da jamstack que podem ser usados.  
+- Recomendamos usar os seguintes CMS: [hypgraph](https://hygraph.com/) ou [prismic](https://prismic.io/), porém existe outros no site da [jamstack que podem ser usados](https://jamstack.org/headless-cms/).  
 
 ## Exemplos
 
