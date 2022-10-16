@@ -11,12 +11,12 @@
 - [Sobre](#sobre)
 - [Como participar](#como-participar)
 - [Desafios](#desafios)
-    - [Desafio 1](#desafio-1)
-    - [Desafio 2](#desafio-2)
-    - [Desafio 3](#desafio-3)
-    - [Desafio 4](#desafio-4)
+  - [Desafio 1](#desafio-1)
+  - [Desafio 2](#desafio-2)
+  - [Desafio 3](#desafio-3)
+  - [Desafio 4](#desafio-4)
 - [Projetos abertos](#projetos-abertos)
-  - [DevChallenge:](#devchallenge)
+  - [DevChallenge](#devchallenge)
   - [Documentação:](#documentação)
 - [Como contribuir](#como-contribuir)
   - [Para desafios](#para-desafios)
@@ -42,17 +42,19 @@ você poderá escolher seu prêmio no site do Hacktoberfest, podendo ser uma cam
 
 # Desafios
 
-### Desafio 1
+## Desafio 1
 
-### Desafio 2
+[Sobre o desafio](./desafios/desafio1/desafio.md)
 
-### Desafio 3
+## Desafio 2
 
-### Desafio 4
+## Desafio 3
+
+## Desafio 4
 
 # Projetos abertos
 
-## DevChallenge:
+## DevChallenge
 
 [Frontend](https://github.com/Lorenalgm/DevChallenge) - Ajude a melhorar o código e documentação do front do DevChallenge (ReactJS)
 
