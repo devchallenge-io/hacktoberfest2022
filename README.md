@@ -3,7 +3,7 @@
         <a href="https://www.devchallenge.com.br/">
             <img src="https://i.imgur.com/v9IvWnx.jpg" alt="Logo" width="700" height="350">
         </a>
-        <h3 align="center">DevChallenge Hacktoberfest 2021</h3>
+        <h3 align="center">DevChallenge Hacktoberfest 2022</h3>
    </p>
 
 ## Índice
