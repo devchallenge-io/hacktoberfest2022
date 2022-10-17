@@ -28,7 +28,7 @@ Você irá criar uma página de post de um blog
 
 ### Objetivo
 
-Você deverá irá criar uma aplicação jamstack, em que a mesma deverá seguir os principios desse modelo de [arquitetura](https://jamstack.org/), basicamente será uma página de post de blog integrado a um serviço externo que irá fornercer os dados para consumo e serão exibidos para usuário final.
+Você deverá criar uma aplicação jamstack, em que a mesma deverá seguir os principios desse modelo de [arquitetura](https://jamstack.org/), basicamente será uma página de post de blog integrado a um serviço externo que irá fornercer os dados para consumo e serão exibidos para usuário final.
 
 ### Requisitos
 
@@ -72,7 +72,7 @@ Site: <https://www.devchallenge.com.br/>
       </a>
     </td>
     <td>
-      <a href="https://www.linkedin.com/company/devchallenge/"><img src="https://image.flaticon.com/icons/svg/1384/1384014.svg" width="30px" height="30px"  alt="Linkedin">
+       <a href="https://www.linkedin.com/company/devchallenge/"><img src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-linkedin-512.png" width="35px" height="35px"  alt="Linkedin">
       </a>
     </td>
     <td>
