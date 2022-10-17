@@ -35,7 +35,7 @@ o software de código aberto, além de contribuir com a comunidade de tecnologia
 O evento acontecerá durante todo o mês de outubro de 2022. Para participar, siga os passos abaixo:
 
 1. Inscreva-se em: https://hacktoberfest.com/
-2. Entre na comunidade do Discord do DevChallenge: https://discord.gg/a8gtgBf3
+2. Entre na comunidade do Discord do DevChallenge: https://discord.gg/yvYXhGj
 3. Participe contribuindo com 4 pull requests até o fim do mês de outubro. Sua contribuição poderá ser:
 - Resolvendo desafios abaixo
 - Contribuições low code ou non code
@@ -46,10 +46,10 @@ você poderá escolher seu prêmio no site do Hacktoberfest, podendo ser uma cam
 # Desafios
 
 ## Desafio 1
-
 [Sobre o desafio](./desafios/desafio1/desafio.md)
 
 ## Desafio 2
+[Sobre o desafio](./desafios/desafio2/desafio.md)
 
 ## Desafio 3
 
