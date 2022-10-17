@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <h3 align="center">Desafio 3 - Gerador de Readme</h3>
+  <h3 align="center">Desafio 4 - Teste de digitação</h3>
 
   <p align="center">
    DevChallenge Hacktoberfest 2022
@@ -21,39 +21,47 @@
 ## Desafio  
 
 ### Aplicação
-Sempre que vamos desenvolver um projeto, a documentação é uma parte super importante e fazer um readme legal faz toda a diferença para que outras pessoas possam entender seu projeto. Porém, fazer um readme do zero pode ser um pouco demorado, então dessa vez você resolveu criar uma ferramenta para te auxiliar nesse processo!
+Digitar rápido agiliza muito nossos processos do dia a dia e para melhorar nesse quesito, você gostaria de praticar. Então
+resolveu um site para testar seu tempo de digitação.
 
 ### Objetivo
-Você deverá criar uma aplicação que gera modelos de cada parte que compoem um readme.
+Você deverá criar um site com um teste de digitação em um tempo definido e a exibição da quantidade de acertos e erros ao final.
 
 ### Requisitos
-- Criar uma tela com um editor de texto, onde será possível adicionar seu readme em linguagem markdown
-- Um menu do lado esquerdo com as opções: cabeçalho, índice e seção principal
-- Ao clicar em uma das opções do menu, seu programa deverá adicionar no editor de texto um modelo de texto em markdown.
-<br>Ex: usuário clicou em "cabeçalho", o programa irá inserir no editor um texto como:
-```
-## Índice
-- [Sobre](#sobre)
-  - [Quem Somos](#quem-somos)
-  - [Endereço](#endereco)
-- [Contato](#contato)
-```
-Atenção, caso o usuário clique em outras opções, o texto não deverá subscrever o texto existente e sim inserir logo abaixo.
+- Criar uma tela que deverá conter: 
+  1. O texto a ser digitado
+  ```
+  Para o texto a ser digitado, você pode fazer como preferir, seja deixando alguns exemplos salvos, utilizando alguma api ou gerando seus textos aleatórios.
+  ```
+  2. Um campo de texto para digitação
+  ```
+  Ao apertar a tecla espaço, significa que a pessoa finalizou a escrita de uma palavra e irá partir para a próxima. Utilize esta ação para comparar as palavras e contabilizar os erros e acertos
+  ```
+  3. Um contador de tempo que começa em 60 segundos e termina em 0.
+    ```
+  O tempo começa a rodar assim que a primeira tecla for digitada no campo de texto
+  ```
+ - Quando o tempo chegar em 0, deverá exibir a quantidade de palavras certas e erradas
+<br>
 
 ### Extras
-- Disponibize um botão para que o usuário possa copiar o conteúdo do texto
-- Crie uma opção de preview do readme
-- Adicione outras opções ao menu lateral
+- Destaque com alguma cor no texto modelo a palavra que a pessoa está digitando no momento
+- Adicione um botão caso o usuário queira iniciar um novo teste com um novo texto
 
 ### Dicas
 - Nesse desafio você poderá criar o design da forma que preferir, então pode deixar a criatividade agir o/
-- Você pode usar como modelo um readme do próprio devchallenge :)
+- Você pode utilizar algumas funções do javascript para ouvir a ação de digitação, como:
+```js
+element.addEventListener("keydown", (event) => {
+//criar sua lógica aqui
+})
+```
 
 ## Exemplos
-https://readme.so/pt/editor
+- https://10fastfingers.com/typing-test/portuguese
+
 
 ## Comunidade
-
 Caso tenha alguma dúvida sobre os desafios, fique à vontade para pedir ajuda na comunidade do [discord](https://discord.gg/yvYXhGj)
 
 <br><br>

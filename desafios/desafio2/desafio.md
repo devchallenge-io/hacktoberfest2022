@@ -1,7 +1,5 @@
 <br />
 <p align="center">
-  <img width="10%" align="center" src="./jamstack.svg"/>
-  
   <h3 align="center">Desafio 2 - Bolão da Copa do Mundo</h3>
 
   <p align="center">
