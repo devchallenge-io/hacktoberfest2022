@@ -36,7 +36,10 @@ O evento acontecerá durante todo o mês de outubro de 2022. Para participar, si
 
 1. Inscreva-se em: https://hacktoberfest.com/
 2. Entre na comunidade do Discord do DevChallenge: https://discord.gg/a8gtgBf3
-3. Participe dos 4 desafios abaixo, ou com contribuições low code e non code, e até projetos abertos do DevChallenge, contribuindo com 4 pull requests até o fim do mês de outubro.
+3. Participe contribuindo com 4 pull requests até o fim do mês de outubro. Sua contribuição poderá ser:
+- Resolvendo desafios abaixo
+- Contribuições low code ou non code
+- Contribuição em projetos abertos do DevChallenge, .
 4. Se a suas contribuições forem aprovadas com sucesso por nossa equipe de moderação, 
 você poderá escolher seu prêmio no site do Hacktoberfest, podendo ser uma camisa ou plantar uma árvore :)
 
@@ -75,10 +78,10 @@ Para os desafios de frontend ou backend [listados acima](#desafios):
 1. Faça o fork deste repositório **hacktoberfest2022**
 2. Leia os requisitos do desafio e desenvolva com a tecnologia de sua preferência
 3. Tente realizar os requisitos bônus para praticar ainda mais suas habilidades
-4. Envie cada resolução de desafio como uma pull request neste repositório.
-5. Para evitarmos que esse repositório fique muito pesado , recomendamos criar a resolução/ criação da solução do desafio num propio repositório seu, e depois colocar no readme criado internamente o link que aponte para seu repositório ( Isso vale para apps desenvolvidos)
-<br>Ps: você deverá enviar a sua solução dentro da pasta [resolucoes](./resolucoes). Lembre-se de colocá-la em uma pasta com o título ``[tecnologia utilizada]-[seu user]``. 
-Ex: <b>javascript-lorenalgm</b>
+4. Envie cada resolução de desafio como uma pull request neste repositório. Atenção, sua pull request deverá seguir o [modelo de exemplo](./resolucoes/javascript-lorenalgm.md).<br>
+Então faça o upload da sua solução no seu próprio github e envie somente o link no modelo descrito acima.
+<br>Ps: você deverá enviar a sua solução dentro da pasta [resolucoes](./resolucoes). Lembre-se de colocá-la em uma pasta com o título ``[nome_do_desafio]-[seu_user]``. 
+Ex: <b>desafio1-lorenalgm</b>
 6. Aguarde a revisão e aprovação da sua PR.
 
 ## Para projetos abertos
