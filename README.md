@@ -80,7 +80,7 @@ Para os desafios de frontend ou backend [listados acima](#desafios):
 1. Faça o fork deste repositório **hacktoberfest2022**
 2. Leia os requisitos do desafio e desenvolva com a tecnologia de sua preferência
 3. Tente realizar os requisitos bônus para praticar ainda mais suas habilidades
-4. Envie cada resolução de desafio como uma pull request neste repositório. Atenção, sua pull request deverá seguir o [modelo de exemplo](./resolucoes/javascript-lorenalgm.md).<br>
+4. Envie cada resolução de desafio como uma pull request neste repositório. Atenção, sua pull request deverá seguir o [modelo de exemplo](https://github.com/devchallenge-io/hacktoberfest2022/blob/main/resolucoes/desafio1-lorenalgm.md).<br>
 Então faça o upload da sua solução no seu próprio github e envie somente o link no modelo descrito acima.
 <br>Ps: você deverá enviar a sua solução dentro da pasta [resolucoes](./resolucoes). Lembre-se de colocá-la em uma pasta com o título ``[nome_do_desafio]-[seu_user]``. 
 Ex: <b>desafio1-lorenalgm</b>
