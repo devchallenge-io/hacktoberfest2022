@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./styles.module.css";
 
-function Header() {
+export default function Header() {
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
@@ -10,5 +10,3 @@ function Header() {
     </header>
   )
 }
-
-export default Header
