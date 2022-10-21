@@ -21,18 +21,16 @@ function auth(req, res, next){
 
         const bearer = authToken.split(' ');
         var token = bearer[1];
-        console.log(token);
 
         jwt.verify(token,JWTSecret,(err, data) => {
             if(err){
                 res.status(401);
                 res.json({err:"Token inválido!"});
             }else{
-                console.log(data);       
+
                 req.token = token;
                 req.loggedUser = {id: data.id,email: data.email};
-                req.empresa = "Naylson NodeJS";   
-                      
+                req.empresa = "Guia do programador";                
                 next();
             }
         });
@@ -70,7 +68,7 @@ var DB = {
             id: 1,
             name: "Naylson",
             email: "naylsonrj@gmail.com",
-            password: "Bolsonaro22",
+            password: "123",
         },
         {
             id: 2,
@@ -83,31 +81,31 @@ var DB = {
 
 
 // CRIANDO ROTA GET (trazer todos os dados de games)
-app.get("/games", auth, (req, res) => {
-    res.statusCode = 200; // requisição feita com sucesso
-    res.json({empresa: req.empresa,user: req.loggedUser,games: DB.games}); //rota que retornam dados
+app.get("/games",auth,(req, res) => {
+    res.statusCode = 200;
+    res.json(DB.games);
 });
 
 // CRIANDO ROTA GET (trazer um ID específico)
-app.get("/games/:id", (req, res) => {
-    if (isNaN(req.params.id)) {
-        //verifica se o id é um número ou não
+app.get("/game/:id",auth,(req, res) => {
+    if(isNaN(req.params.id)){
         res.sendStatus(400);
-    } else {
-        //se for um número
-        var id = parseInt(req.params.id); //converte o id para inteiro
-        var game = DB.games.find((g) => g.id == id); //verifica se o id existe no banco de dados
+    }else{
+        
+        var id = parseInt(req.params.id);
 
-        if (game != undefined) {
-            res.statusCode = 200; // requisição feita com sucesso
+        var game = DB.games.find(g => g.id == id);
+
+        if(game != undefined){
+            res.statusCode = 200;
             res.json(game);
-        } else {
-            res.sendStatus(404); //se não existir o id, retorna 404
+        }else{
+            res.sendStatus(404);
         }
     }
 });
 
-app.post("/game", (req, res) => {
+app.post("/game",auth, (req, res) => {
     var { titulo, valor, ano } = req.body;
 
     DB.games.push({
@@ -136,7 +134,7 @@ app.delete("/game/:id", (req, res) => {
     }
 });
 
-app.put("/game/:id", (req, res) => {
+app.put("/game/:id",auth, (req, res) => {
     if (isNaN(req.params.id)) {
         res.sendStatus(400);
     } else {
@@ -166,38 +164,36 @@ app.put("/game/:id", (req, res) => {
 });
 
 // AUTENTICAÇÃO DE USUÁRIO
-app.post("/auth", (req, res) => {
-    var { email, password } = req.body;
+app.post("/auth",(req, res) => {
 
-    if (email != undefined) {
-        var user = DB.users.find((u) => u.email == email);
-        if (user != undefined) {
-            if (user.password == password) {
-                jwt.sign(
-                    { id: user.id, email: user.email },
-                    JWTSecret,
-                    { expiresIn: "48h" },
-                    (err, token) => {
-                        if (err) {
-                            res.status(400);
-                            res.json({ err: "Falha interna" });
-                        } else {
-                            res.status(200);
-                            res.json({ token: token });
-                        }
+    var {email, password} = req.body;
+
+    if(email != undefined){
+
+        var user = DB.users.find(u => u.email == email);
+        if(user != undefined){
+            if(user.password == password){
+                jwt.sign({id: user.id, email: user.email},JWTSecret,{expiresIn:'48h'},(err, token) => {
+                    if(err){
+                        res.status(400);
+                        res.json({err:"Falha interna"});
+                    }else{
+                        res.status(200);
+                        res.json({token: token});
                     }
-                );
-            } else {
+                })
+            }else{
                 res.status(401);
-                res.json({ err: "Credenciais inválidas!" });
+                res.json({err: "Credenciais inválidas!"});
             }
-        } else {
+        }else{
             res.status(404);
-            res.json({ err: "O E-mail enviado não existe na base de dados!" });
+            res.json({err: "O E-mail enviado não existe na base de dados!"});
         }
-    } else {
+
+    }else{
         res.status(400);
-        res.send({ err: "O E-mail enviado é inválido" });
+        res.send({err: "O E-mail enviado é inválido"});
     }
 });
 

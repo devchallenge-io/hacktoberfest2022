@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
- 
+    <!--Replace with your tailwind.css once created-->
     <link href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css" rel="stylesheet" />
 
     <style>
@@ -52,6 +52,25 @@
           </p>
 
           <form class="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+           <div>
+            <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
+              LOGIN JWT
+            </label>
+            <input 
+            class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+            type="text" name="email" id="email" placeholder="naylsonrj@gmail.com"><br><br>
+            <input 
+            class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+            type="text" name="password" id="password" placeholder="digite a senha do user de index.js"><br><br>
+            <button
+            class="bg-gradient-to-r from-purple-800 to-red-500 hover:from-blue-500 hover:to-purple-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+            type="button"
+            onclick="login()"
+          >
+            ENTRAR
+          </button><br><br>
+           </div>
+            
             <div class="mb-4">
               <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
                 CADASTRAR NOVO GAME
@@ -103,6 +122,7 @@
       </div>
     </div>
   </body>
+  
   <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
   <script src="./scripts.js"></script>
 </html>
