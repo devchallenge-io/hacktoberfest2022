@@ -7,14 +7,6 @@
   max-width: 720px;
   margin: 5rem auto 0;
 }
-.list a {
-  display: block;
-  margin-top: 2rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--gray-700)
-
-}
-
 .list time {
   font-size: 1rem;
   display: flex;
@@ -46,4 +38,27 @@
   border-radius: 4px;
   height: 150px;
   margin-bottom: 1rem;
+}
+
+.subTitle{
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.item {
+  display: block;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--gray-700);
+
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
 }

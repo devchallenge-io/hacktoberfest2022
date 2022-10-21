@@ -3,7 +3,7 @@ import Head from "next/head"
 import "../../styles/globals.css"
 import { Header } from "../components"
 
-function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
@@ -16,5 +16,3 @@ function MyApp({ Component, pageProps }: AppProps) {
     </>
   )
 }
-
-export default MyApp
