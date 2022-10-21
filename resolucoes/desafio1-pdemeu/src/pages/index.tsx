@@ -21,6 +21,7 @@ type Post = {
 interface PostsProps {
   posts: Post[]
 }
+
 export default function Posts({ posts }: PostsProps) {
   return (
     <>
@@ -48,7 +49,7 @@ export default function Posts({ posts }: PostsProps) {
           ))}
         </div>
         <footer className={styles.footer}>
-          feito com 💜 por pdemeu
+          feito com 💜 por pedro demeu
         </footer>
       </main>
     </>
