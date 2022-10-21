@@ -9,6 +9,7 @@ import styles from "./styles.module.css";
 type Post = {
   slug: string;
   title: string;
+  author: string;
   excerpt: string;
   updatedAt: string;
 }
@@ -28,6 +29,7 @@ export default function Posts({ posts }: PostsProps) {
             <a href="" key={post.slug}>
               <time>{post.updatedAt}</time>
               <strong>{post.title}</strong>
+              <p>{post.author}</p>
               <p>{post.excerpt}</p>
             </a>
           ))}
@@ -43,7 +45,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const response = await prismic.query([
     Prismic.predicates.at("document.type", "post")
   ], {
-    fetch: ["post.title", "post.content"],
+    fetch: ["post.title", "post.author", "post.content"],
     pageSize: 100,
   })
 
@@ -51,6 +53,7 @@ export const getStaticProps: GetStaticProps = async () => {
     return {
       flug: post.uid,
       title: RichText.asText(post.data.title),
+      author: post.data.author,
       excerpt: post.data.content.find(content => content.type === 'paragraph')?.text ?? '',
       updatedAt: new Date(post.last_publication_date).toLocaleDateString('pt-BR', {
         day: '2-digit',
@@ -59,8 +62,6 @@ export const getStaticProps: GetStaticProps = async () => {
       })
     }
   })
-
-  console.log(JSON.stringify(response, null, 2))
 
   return {
     props: {
