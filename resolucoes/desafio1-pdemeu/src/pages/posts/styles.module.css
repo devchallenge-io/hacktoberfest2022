@@ -6,7 +6,6 @@
 .list {
   max-width: 720px;
   margin: 5rem auto 0;
-
 }
 .list a {
   display: block;
@@ -39,4 +38,12 @@
 
 .list strong:hover {
   color: var(--green-500);
+}
+
+.list .banner {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 4px;
+  height: 150px;
+  margin-bottom: 1rem;
 }

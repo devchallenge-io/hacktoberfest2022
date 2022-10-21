@@ -5,11 +5,16 @@ import { getPrismicClient } from '../../../services/prismic';
 import Prismic from '@prismicio/client';
 import { RichText } from "prismic-dom"
 import styles from "./styles.module.css";
+import Image from 'next/image';
 
 type Post = {
   slug: string;
   title: string;
   author: string;
+  banner: {
+    url: string;
+    alt: string;
+  };
   excerpt: string;
   updatedAt: string;
 }
@@ -26,12 +31,19 @@ export default function Posts({ posts }: PostsProps) {
       <main className={styles.container}>
         <div className={styles.list}>
           {posts.map(post => (
-            <a href="" key={post.slug}>
-              <time>{post.updatedAt}</time>
-              <strong>{post.title}</strong>
-              <p>{post.author}</p>
-              <p>{post.excerpt}</p>
-            </a>
+            <div key={post.slug}>
+              <a href="">
+                <img
+                  className={styles.banner}
+                  src={post.banner.url}
+                  alt={post.banner.alt}
+                />
+                <time>{post.updatedAt}</time>
+                <strong>{post.title}</strong>
+                <p>{post.author}</p>
+                <p>{post.excerpt}</p>
+              </a>
+            </div>
           ))}
         </div>
       </main>
@@ -42,17 +54,18 @@ export default function Posts({ posts }: PostsProps) {
 export const getStaticProps: GetStaticProps = async () => {
   const prismic = getPrismicClient();
 
-  const response = await prismic.query([
+  const response = await prismic.query<any>([
     Prismic.predicates.at("document.type", "post")
   ], {
-    fetch: ["post.title", "post.author", "post.content"],
+    fetch: ["post.title", "post.banner", "post.author", "post.content"],
     pageSize: 100,
   })
 
-  const posts = response.results.map(post => {
+  const posts = response.results.map((post) => {
     return {
-      flug: post.uid,
+      slug: post.uid,
       title: RichText.asText(post.data.title),
+      banner: post.data.banner,
       author: post.data.author,
       excerpt: post.data.content.find(content => content.type === 'paragraph')?.text ?? '',
       updatedAt: new Date(post.last_publication_date).toLocaleDateString('pt-BR', {
@@ -63,6 +76,7 @@ export const getStaticProps: GetStaticProps = async () => {
     }
   })
 
+  console.log(posts)
   return {
     props: {
       posts
