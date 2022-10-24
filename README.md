@@ -15,6 +15,7 @@
   - [Desafio 2](#desafio-2)
   - [Desafio 3](#desafio-3)
   - [Desafio 4](#desafio-4)
+  - [Desafio 5](#desafio-5)
 - [Projetos abertos](#projetos-abertos)
   - [DevChallenge](#devchallenge)
   - [Documentação:](#documentação)
