@@ -6,6 +6,12 @@
         <h3 align="center">DevChallenge Hacktoberfest 2022</h3>
    </p>
 
+#### _Leita em outros idiomas_
+
+<kbd>[<img title="Português Brasileiro" alt="Brasileiro Português" src="https://flagcdn.com/w20/br.png" width="22">](translations/README.pt_br.md)</kbd>
+<kbd>[<img title="Inglês" alt="Inglês" src="https://flagcdn.com/w20/us.png" width="22">](translations/README.en.md)</kbd>
+<kbd>[<img title="Espanhol" alt="Espanhol" src="https://flagcdn.com/w20/es.png" width="22">](translations/README.es.md)</kbd>
+
 ## Índice
 
 - [Sobre](#sobre)
