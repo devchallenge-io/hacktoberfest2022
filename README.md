@@ -5,6 +5,13 @@
         </a>
         <h3 align="center">DevChallenge Hacktoberfest 2022</h3>
    </p>
+<!-- Nesse link você pode encontrar bandeiras de diversos países https://flagpedia.net/download/api -->
+
+#### _Leia em outros idiomas_
+
+<kbd>[<img title="Português Brasileiro" alt="Brasileiro Português" src="https://flagcdn.com/w20/br.png" width="22">](./README.md)</kbd>
+<kbd>[<img title="Inglês" alt="Inglês" src="https://flagcdn.com/w20/us.png" width="22">](./translations/README.en.md)</kbd>
+<kbd>[<img title="Espanhol" alt="Espanhol" src="https://flagcdn.com/w20/es.png" width="22">](./translations/README.es.md)</kbd>
 
 ## Índice
 
@@ -128,12 +135,26 @@ Bora? https://discord.gg/yvYXhGj <br>
 Site: https://www.devchallenge.com.br/ <br>
 
 <table style="border-color:transparent">
-    <th>
-        <td><a href="https://discord.gg/yvYXhGj"><img src="https://cdn3.iconfinder.com/data/icons/discord/64/discord_20-512.png" width="30px" height="30px" alt="Discord">      </a></td>
-    <td> <a href="https://www.linkedin.com/company/devchallenge/"><img src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-linkedin-512.png" width="35px" height="35px"  alt="Linkedin">
-      </a></td>
-    <td><a href="https://twitter.com/dev_challenge"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" width="30px" height="30px"        alt="Twitter"></a</td>
-    <td><a href="https://www.instagram.com/devchallenge/"><img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-512.png" width="30px"            height="30px" alt="Instagram"></a></td>
-    </th>
+    <tr>
+        <td>
+            <a href="https://discord.gg/yvYXhGj" target="_blank">
+                <img src="https://cdn3.iconfinder.com/data/icons/discord/64/discord_20-512.png" width="30px" height="30px" alt="Discord">
+            </a>
+        </td>
+        <td>
+            <a href="https://www.linkedin.com/company/devchallenge/" target="_blank">
+                <img src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-linkedin-512.png" width="35px" height="35px"  alt="Linkedin">
+            </a>
+        </td>
+        <td>
+            <a href="https://twitter.com/dev_challenge" target="_blank">
+                <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" width="30px" height="30px" alt="Twitter">
+            </a>
+        </td>
+        <td>
+            <a href="https://www.instagram.com/devchallenge/" target="_blank">
+                <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-512.png" width="30px" height="30px" alt="Instagram">
+            </a>
+        </td>
+    </tr>
 </table>
-
