@@ -53,19 +53,19 @@ podrás elegir tu premio en la web de Hacktoberfest, puede ser una camiseta o pl
 
 # Desafíos
 ## Desafío 1
-[Leer el desafío](./desafios/desafio1/translations/desafio.es.md)
+[Leer el desafío](../desafios/desafio1/translations/desafio.es.md)
 
 ## Desafío 2
-[Leer el desafío](./desafios/desafio2/translations/desafio.es.md)
+[Leer el desafío](../desafios/desafio2/translations/desafio.es.md)
 
 ## Desafío 3
-[Leer el desafío](./desafios/desafio3/translations/desafio.es.md)
+[Leer el desafío](../desafios/desafio3/translations/desafio.es.md)
 
 ## Desafío 4
-[Leer el desafío](./desafios/desafio4/translations/desafio.es.md)
+[Leer el desafío](../desafios/desafio4/translations/desafio.es.md)
 
 ## Desafío 5
-[Leer el desafío](./desafios/desafio5/translations/desafio.es.md)
+[Leer el desafío](../desafios/desafio5/translations/desafio.es.md)
 
 # Proyectos Abiertos
 
