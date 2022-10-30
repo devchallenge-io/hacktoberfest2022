@@ -5,6 +5,7 @@
         </a>
         <h3 align="center">DevChallenge Hacktoberfest 2022</h3>
    </p>
+<!-- Nesse link você pode encontrar bandeiras de diversos países https://flagpedia.net/download/api -->
 
 #### _Leita em outros idiomas_
 
