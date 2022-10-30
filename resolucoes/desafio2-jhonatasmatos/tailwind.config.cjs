@@ -4,35 +4,53 @@ module.exports = {
     "./src/**/*.{html,jsx,js}",
   ],
   theme: {
+    fontSize: {
+      xs: 14,
+      sm: 16,
+      md: 18,
+      lg: 20,
+      xl: 24,
+      "2xl": 32,
+    },
+    colors: {
+      "transparent": "transparent",
+
+      "black": "#000",
+      "white": "#FFF",
+      "yellow": "#FFCA01",
+
+      green: {
+        900: "#00AA25",
+        400: "#0AC266"
+      },
+
+      blue: {
+        900: "#020076",
+        400: "#6A68F1",
+      },
+
+      purple: {
+        900: "#4D11AB",
+        400: "#8945F4"
+      },
+
+      brown: {
+        900: "#75310C",
+        400: "#FD813E",
+      }
+    },
     extend: {
       fontFamily: {
-        sans: 'Roboto, sans-serif',
+        sans: "'Carter One', cursive, sans-serif"
       },
-      colors: {
-        green: {
-          300: '#00B37E',
-          500: '#00875F',
-          700: '#015F43',
-        },
-        blue: {
-          500: '#81D8F7',
-        },
-        orange: {
-          500: '#FBA94C',
-        },
-        red: {
-          500: '#F75A68',
-        },
-        gray: {
-          100: '#E1E1E6',
-          200: '#C4C4CC',
-          300: '#8D8D99',
-          500: '#323238',
-          600: '#29292E',
-          700: '#121214',
-          900: '#09090A'
-        }
-      },
+      backgroundImage: {
+        "soccer-field":
+        "linear-gradient(to right bottom, rgba(0, 170, 37, 0.75), rgba(255, 202, 1, 0.65)), url('/src/assets/soccer_field.png')",
+        "soccer-play":
+        "linear-gradient(to right bottom, rgba(2, 0, 118, 0.75), rgba(255, 202, 1, 0.65)), url('/src/assets/soccer_play.jpg')",
+        "soccer-trophy":
+        "linear-gradient(to right bottom, rgba(255, 202, 1, 0.65), rgba(0, 170, 37, 0.75)), url('/src/assets/world_cup.jpg')"
+      }
     },
   },
   plugins: [],
