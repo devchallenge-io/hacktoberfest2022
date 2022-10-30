@@ -1,136 +1,137 @@
 <br />
-    <p align="center">
+    <p align="centro">
         <a href="https://www.devchallenge.com.br/" target="_blank">
-            <img src="https://i.imgur.com/v9IvWnx.jpg" alt="Logo" width="700" height="350">
+            <img src="https://i.imgur.com/v9IvWnx.jpg" alt="Logotipo" ancho="700" altura="350">
         </a>
         <h3 align="center">DevChallenge Hacktoberfest 2022</h3>
    </p>
+<!-- En este enlace puedes encontrar banderas de diferentes países https://flagpedia.net/download/api -->
 
-#### _Read in other languages_
+#### _Leer en otros idiomas_
 
-<kbd>[<img title="Brazilian Portuguese" alt="Portuguese Brazilian" src="https://flagcdn.com/w20/br.png" width="22">](translations/README.pt_br.md)</kbd>
-<kbd>[<img title="English" alt="English" src="https://flagcdn.com/w20/us.png" width="22">](translations/README.en.md)</kbd>
-<kbd>[<img title="Spanish" alt="Spanish" src="https://flagcdn.com/w20/es.png" width="22">](translations/README.es.md)</kbd>
+<kbd>[<img title="Portugués brasileño" alt="Portugués brasileño" src="https://flagcdn.com/w20/br.png" width="22">](../README.md)</kbd>
+<kbd>[<img title="Inglés" alt="Inglés" src="https://flagcdn.com/w20/us.png" width="22">](../translations/README.en.md )</kbd>
+<kbd>[<img title="Español" alt="Español" src="https://flagcdn.com/w20/es.png" width="22">](../translations/README.es.md )</kbd>
 
-## Index
+## Índice
 
-- [About](#about)
-- [How to participate](#how-to-participate)
-- [Challenges](#challenges)
-  - [Challenge 1](#challenge-1)
-  - [Challenge 2](#challenge-2)
-  - [Challenge 3](#challenge-3)
-  - [Challenge 4](#challenge-4)
-  - [Challenge 5](#challenge-5)
-- [Open Projects](#open-projects)
+- [Sobre](#sobre)
+- [Cómo participar](#cómo-participar)
+- [Desafíos](#desafíos)
+  - [Desafío 1](#desafío-1)
+  - [Desafío 2](#desafío-2)
+  - [Desafío 3](#desafío-3)
+  - [Desafío 4](#desafío-4)
+  - [Desafío 5](#desafío-5)
+- [Proyectos abiertos](#proyectos-abiertos)
   - [DevChallenge](#devchallenge)
-  - [Documentation:](#documentation)
-- [How to contribute](#how-to-contribute)
-  - [For challenges](#for-challenges)
-  - [For open-projects](#for-open-projects)
-  - [Non-code or Low-code contributions](#non-code-or-low-code-contributions)
-  - [Non code and Low code deliverables](#deliverables-non-code-and-low-code)
-    - [How to deliver](#how-to-deliver)
-- [Community](#community)
+  - [Documentación:](#documentación)
+- [Cómo contribuir](#cómo-contribuir)
+  - [Para desafíos](#para-desafíos)
+  - [Para proyectos abiertos](#para-proyectos-abiertos)
+  - [Contribuciones sin código o de código bajo](#contribuciones-sin-código-o-de-código-bajo)
+  - [Entregables sin código y de código bajo](#entregables-sin-código-y-de-código-bajo)
+    - [Cómo entregar](#cómo-entregar)
+- [Comunidad](#comunidad)
 
-# About
-The <a href="https://www.devchallenge.com.br/">DevChallenge</a> Hacktoberfest aims to celebrate and encourage
-open source software, in addition to contributing to the technology community for development practice and knowledge exchange.
+# Sobre
+El <a href="https://www.devchallenge.com.br/"  target="_blank">DevChallenge</a> Hacktoberfest tiene como objetivo celebrar y alentar
+software de código abierto, además de contribuir a la comunidad tecnológica para la práctica del desarrollo y el intercambio de conocimientos.
 
-# How to participate
+# Cómo participar
 
-The event will take place throughout the month of October 2022. To participate, follow the steps below:
+El evento se llevará a cabo durante todo el mes de octubre de 2022. Para participar, siga los siguientes pasos:
 
-1. Register at: https://hacktoberfest.com/
-2. Join the DevChallenge Discord community: https://discord.gg/yvYXhGj
-3. Participate by contributing 4 pull requests by the end of October. Your contribution could be:
-- Solving challenges below
-- Low code or non code contributions
-- Contribution to open DevChallenge projects, .
-4. If your contributions are successfully approved by our moderation team,
-you will be able to choose your prize on the Hacktoberfest website, it can be a shirt or plant a tree :)
+1. Regístrate en: https://hacktoberfest.com/
+2. Únase a la comunidad DevChallenge Discord: https://discord.gg/yvYXhGj
+3. Participe contribuyendo con 4 solicitudes de extracción para fines de octubre. Tu aporte podría ser:
+- Resolviendo desafíos a continuación
+- Contribuciones de código bajo o sin código
+- Contribución para abrir proyectos DevChallenge, .
+4. Si nuestro equipo de moderación aprueba sus contribuciones,
+podrás elegir tu premio en la web de Hacktoberfest, puede ser una camiseta o plantar un árbol :)
 
-# Challenges
-## Challenge 1
-[Read the challenge](../desafios/desafio1/translations/desafio.en.md)
+# Desafíos
+## Desafío 1
+[Leer el desafío](./desafios/desafio1/translations/desafio.es.md)
 
-## Challenge 2
-[Read the challenge](../desafios/desafio2/translations/desafio.en.md)
+## Desafío 2
+[Leer el desafío](./desafios/desafio2/translations/desafio.es.md)
 
-## Challenge 3
-[Read the challenge](../desafios/desafio3/translations/desafio.en.md)
+## Desafío 3
+[Leer el desafío](./desafios/desafio3/translations/desafio.es.md)
 
-## Challenge 4
-[Read the challenge](../desafios/desafio4/translations/desafio.en.md)
+## Desafío 4
+[Leer el desafío](./desafios/desafio4/translations/desafio.es.md)
 
-## Challenge 5
-[Read the challenge](../desafios/desafio5/translations/desafio.en.md)
+## Desafío 5
+[Leer el desafío](./desafios/desafio5/translations/desafio.es.md)
 
-# Open projects
+# Proyectos Abiertos
 
 ## DevChallenge
 
-[Frontend](https://github.com/Lorenalgm/DevChallenge) - Help improve the DevChallenge (ReactJS) front code and documentation
+[Frontend](https://github.com/Lorenalgm/DevChallenge) - Ayuda a mejorar el código frontal y la documentación de DevChallenge (ReactJS)
 
-[Backend](https://github.com/Lorenalgm/DevChallengeAPI) - Help improve the DevChallenge (NodeJS) back code and documentation
+[Backend](https://github.com/Lorenalgm/DevChallengeAPI) - Ayuda a mejorar el código y la documentación de DevChallenge (NodeJS)
 
-## Documentation:
+## Documentación:
 
-[Open source for newbies](https://github.com/devchallenge-io/open_source_for_newbies): Share tips for those starting out in the open source world :)
+[Código abierto para novatos](https://github.com/devchallenge-io/open_source_for_newbies): comparte consejos para aquellos que comienzan en el mundo del código abierto :)
 
-[Hiring process for newbies](https://github.com/devchallenge-io/hiring_process_for_newbies): Share tips for developers looking to enter the tech workforce
+[Proceso de contratación para novatos](https://github.com/devchallenge-io/hiring_process_for_newbies): comparta consejos para desarrolladores que buscan ingresar a la fuerza laboral tecnológica
 
-# How to contribute
+# Cómo contribuir
 
-## For challenges
+## Para desafíos
 
-For the frontend or backend challenges [listed above](#challenges):
+Para los desafíos de frontend o backend [enumerados arriba](#challenges):
 
-1. Fork this repository **hacktoberfest2022**
-2. Read the challenge requirements and develop with the technology of your choice
-3. Try to fulfill the bonus requirements to further practice your skills
-4. Submit each challenge resolution as a pull request in this repository. Attention, your pull request must follow the [example template](https://github.com/devchallenge-io/hacktoberfest2022/blob/main/resolucoes/desafio1-lorenalgm.md).<br>
-Then upload your solution to your own github and just send the link in the template described above.
-<br>Ps: you must send your solution inside the folder [resolucoes](./resolucoes). Remember to put it in a folder titled ``[challenge_name]-[your_user]``.
-Ex: <b>challenge1-lorenalgm</b>
-6. Wait for your PR to be reviewed and approved.
+1. Fork este repositorio **hacktoberfest2022**
+2. Lea los requisitos del desafío y desarrolle con la tecnología de su elección
+3. Trate de cumplir con los requisitos de bonificación para seguir practicando sus habilidades
+4. Envíe cada resolución de desafío como una solicitud de extracción en este repositorio. Atención, su solicitud de extracción debe seguir la [plantilla de ejemplo](https://github.com/devchallenge-io/hacktoberfest2022/blob/main/resolucoes/desafio1-lorenalgm.md).<br>
+Luego cargue su solución a su propio github y simplemente envíe el enlace en la plantilla descrita anteriormente.
+<br>Pd: debes enviar tu solución dentro de la carpeta [resolucoes](../resolucoes). Recuerda ponerlo en una carpeta titulada ``[challenge_name]-[your_user]``.
+Ej: <b>desafío1-lorenalgm</b>
+6. Espere a que su PR sea revisado y aprobado.
 
-## For open projects
+## Para proyectos abiertos
 
-For open documentation or DevChallenge projects, your contribution must be made in their repositories. Following the same review and approval rule made by the DevChallenge team.
+Para proyectos de documentación abierta o DevChallenge, tu contribución debe hacerse en sus repositorios. Siguiendo la misma regla de revisión y aprobación realizada por el equipo de DevChallenge.
 
-## Non-code or Low-code Contributions
+## Contribuciones sin código o de código bajo
 
-"Contributing to open source is not just for technical people who want to write code. There are many opportunities to use your professional skills in support of open source projects. At this year's Hacktoberfest, we are keen to encourage contributions that require some technical experience or none at all. .no matter your experience, you can participate in the hacktoberfest!
+"Contribuir al código abierto no es solo para personas técnicas que desean escribir código. Hay muchas oportunidades para usar sus habilidades profesionales en apoyo de proyectos de código abierto. En el Hacktoberfest de este año, estamos interesados en alentar las contribuciones que requieren algo de experiencia técnica o ninguno en absoluto. .sin importar tu experiencia, ¡puedes participar en el hacktoberfest!
 
-**Low code:** Technical Documentation, Tests, Case Studies, Technical Posts
+**Código bajo:** Documentación Técnica, Ensayos, Casos Prácticos, Puestos Técnicos
 
-**Non Code:** Translations of documentations from other languages, UI's, like a Figma layout of pages
+**Sin código:** Traducciones de documentación de otros idiomas, interfaces de usuario, como un diseño de páginas de Figma
 
-## Deliverables Non code and Low code
+## Entregables sin código y de código bajo
 
-- Implement a S.O.L.I.D principle, and detail in a brief explanation, the code snippet to which it is applied.
+- Implementar un principio S.O.L.I.D, y detallar en una breve explicación, el fragmento de código al que se aplica.
 
-- Document one of the 22 existing design patterns, and show a code example of the problem that it solves in your preferred programming language/framework.
+- Documente uno de los 22 patrones de diseño existentes y muestre un ejemplo de código del problema que resuelve en su marco/lenguaje de programación preferido.
 
-- Show two of the existing Code smells, and apply in a code example, how it can be solved in a practical way.
+- Mostrar dos de los olores de Código existentes, y aplicar en un ejemplo de código, cómo se puede solucionar de forma práctica.
   
-- Create layouts for product pages, blog pots, forms, login, minicart etc, we ask that if you choose to go with a UI deliverable layout, create a simple styleguide for it.
+- Cree diseños para páginas de productos, botes de blog, formularios, inicio de sesión, minicart, etc. Le pedimos que si elige ir con un diseño de interfaz de usuario entregable, cree una guía de estilo simple para él.
 
-For the cases mentioned above, it does not necessarily have to be a functional application, but the concept that is applied, if you want you can make comments on the lines of the code snippet.
+Para los casos mencionados anteriormente, no necesariamente tiene que ser una aplicación funcional, sino el concepto que se aplica, si quieres puedes hacer comentarios en las líneas del fragmento de código.
 
-**Important**: As a rule, only one of each topic per contributor can be delivered, that is, you cannot make the same topic more than once
+**Importante**: Como regla general, solo se puede entregar uno de cada tema por colaborador, es decir, no se puede hacer el mismo tema más de una vez.
 
-### How to deliver
+### Cómo entregar
 
-- Ps: you must send your solution inside the folder [low-code](./low-code) or [non-code](./non-code/). Remember to put it in a folder titled ``[subject topic]-[your username]``.
-Ex: <b>code-smell-Lucas0019</b>
+- Ps: debes enviar tu solución dentro de la carpeta [low-code](./low-code) o [non-code](./non-code/). Recuerde ponerlo en una carpeta titulada ``[asunto]-[su nombre de usuario]``.
+Ej: <b>olor-código-Lucas0019</b>
 
-# Community
-Our goal is to help more and more in the evolution of developers! That's why we have an exclusive DevChallenge community on Discord. If you have any questions about the challenges, feel free to ask the community for help! <br>
-Let's go? https://discord.gg/yvYXhGj <br>
+# Comunidad
+¡Nuestro objetivo es ayudar cada vez más en la evolución de los desarrolladores! Es por eso que tenemos una comunidad exclusiva de DevChallenge en Discord. Si tiene alguna pregunta sobre los desafíos, ¡no dude en pedir ayuda a la comunidad! <br>
+¿Dale? https://discord.gg/yvYXhGj <br>
 <br>
-Website: https://www.devchallenge.com.br/ <br>
+Sitio web: https://www.devchallenge.com.br/ <br>
 
 <table style="border-color:transparent">
     <tr>
@@ -141,7 +142,7 @@ Website: https://www.devchallenge.com.br/ <br>
         </td>
         <td>
             <a href="https://www.linkedin.com/company/devchallenge/" target="_blank">
-                <img src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-linkedin-512.png" width="35px" height="35px"  alt="Linkedin">
+                <img src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-linkedin-512.png" width="35px" height="35px" alt ="Linkedin">
             </a>
         </td>
         <td>
@@ -151,7 +152,7 @@ Website: https://www.devchallenge.com.br/ <br>
         </td>
         <td>
             <a href="https://www.instagram.com/devchallenge/" target="_blank">
-                <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-512.png" width="30px" height="30px" alt="Instagram">
+                <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-512.png" width="30px" height="30px" alt="Instagram" >
             </a>
         </td>
     </tr>
