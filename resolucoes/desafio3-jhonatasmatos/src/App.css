@@ -67,6 +67,8 @@
 
 .container textarea {
   padding: 0.8rem;
+  background-color: #333;
+  color: #fff;
   grid-area: textarea;
 }
 
