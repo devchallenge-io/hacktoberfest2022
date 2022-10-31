@@ -1,0 +1,32 @@
+[
+    {
+        "tag": "BR",
+        "name": "Brasil",
+        "flagUrl": "/src/assets/flags/br.png"
+    },
+    {
+        "tag": "PT",
+        "name": "Portugal",
+        "flagUrl": "/src/assets/flags/pt.png"
+    },
+    {
+        "tag": "ES",
+        "name": "Espanha",
+        "flagUrl": "/src/assets/flags/es.png"
+    },
+    {
+        "tag": "FR",
+        "name": "França",
+        "flagUrl": "/src/assets/flags/fr.png"
+    },
+    {
+        "tag": "IT",
+        "name": "Italia",
+        "flagUrl": "/src/assets/flags/it.png"
+    },
+    {
+        "tag": "NG",
+        "name": "Nigeria",
+        "flagUrl": "/src/assets/flags/ng.png"
+    }
+]
