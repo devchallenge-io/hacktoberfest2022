@@ -1,0 +1,85 @@
+.container {
+  width: 100vw;
+  display: grid;
+  gap: 2rem;
+  grid-template-areas:
+  'title title title'
+  'menu textarea main';
+  grid-template-columns: 220px 1fr 1fr;
+}
+
+.titleContainer {
+  display: flex;
+  grid-area: title;
+  padding-left: 2rem;
+}
+
+.titleContainer h1 {
+  color: #9e86c8;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 2rem;
+  grid-area: menu;
+}
+
+.btn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 0.8rem 1.4rem;
+  font-weight: 500;
+  border: none;
+  margin: 0.4rem 0;
+  border-radius: 0.4rem;
+  background-color: #6c99bb;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.clearLink {
+  color: #6c99bb;
+  background: transparent;
+}
+
+.clearLink:hover {
+  cursor: pointer;
+  color: #9e86c8;
+}
+
+.menu button:hover {
+  background-color: #9e86c8;
+}
+
+.SectionAButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 2px;
+}
+
+.container textarea {
+  padding: 0.8rem;
+  grid-area: textarea;
+}
+
+.container main {
+  padding: 0.8rem 1.6rem;
+  grid-area: main;
+  border: solid 2px #9e86c8;
+}
+
+.container main li {
+  margin-left: 2rem;
+}
+
+.RMarkdown {
+  padding: 2rem;
+}
